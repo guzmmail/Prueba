@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService11\WcfService1\WcfService1.csproj", "{9A1E92BC-A8D5-42F4-9CC6-ABCDB14F9FF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1.csproj", "{9A1E92BC-A8D5-42F4-9CC6-ABCDB14F9FF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
