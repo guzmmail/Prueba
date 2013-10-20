@@ -6,10 +6,10 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace HelloWorldService
+namespace WcfService1
 {
     //Implement IHelloWorld interface and override GetMessage() method displlay a message.
-    public class HelloWorld : IHelloWorld
+    public class Service1 : IService1
     {
         public string GetMessage()
         {
