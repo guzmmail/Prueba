@@ -6,12 +6,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{145F1D71-923D-4C33-AC57-6BEF6B31429B}</ProjectGuid>
+    <ProjectGuid>{9A1E92BC-A8D5-42F4-9CC6-ABCDB14F9FF9}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RestService</RootNamespace>
-    <AssemblyName>RestService</AssemblyName>
+    <RootNamespace>WcfService1</RootNamespace>
+    <AssemblyName>WcfService1</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
@@ -53,23 +53,21 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RestServiceImpl.svc" />
+    <Content Include="HelloWorld.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-      <SubType>Designer</SubType>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRestServiceImpl.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RestServiceImpl.svc.cs">
-      <DependentUpon>RestServiceImpl.svc</DependentUpon>
+    <Compile Include="HelloWorld.svc.cs">
+      <DependentUpon>HelloWorld.svc</DependentUpon>
     </Compile>
+    <Compile Include="IHellowWorld.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -82,7 +80,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>35798</DevelopmentServerPort>
+          <DevelopmentServerPort>11684</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
